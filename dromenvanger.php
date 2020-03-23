@@ -2,7 +2,7 @@
 echo("hoeveel mensen zijn er?");
 $AantalMensen = readline();
 
-if(is_numeric($AantalMensen)){
+if(is_numeric($AantalMensen)) {
 
     for($i=0 ;$i < $AantalMensen; $i++){
         echo("wat is uw naam?");
@@ -17,7 +17,7 @@ if(is_numeric($AantalMensen)){
             echo("wat is uw droom?");
             $droom = readline();
             
-            array_push($tempDroom,$droom);
+            array_push($tempDroom, $droom);
 
         }
         $personen[$persoon]=$tempDroom;
